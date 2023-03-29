@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 export class LecturerDataService {
 
   // Create url to json-data-students
-  url = 'http://localhost:8888/php/json-data-lecturers.php';
+  url = 'http://localhost:8888/php_ionic/json-data-lecturers.php';
 
   // Inject HttpClient module into Constructor
   constructor(private http: HttpClient) { }
